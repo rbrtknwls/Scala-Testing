@@ -1,5 +1,12 @@
 import scala.collection.mutable.ArrayBuffer
 
+object Solution_66 {
+  def plusOne(digits: Array[Int]): Array[Int] = {
+    digits(digits.length-1) = digits(digits.length-1) +1
+    digits
+  }
+}
+
 object Solution_20 {
   var accum: String = "";
   def isValid(s: String): Boolean = {
